@@ -1,5 +1,5 @@
 ext {
-    kotlin_version = "1.5.21"
+    kotlin_version = "1.8.22"
     minsdk_version = 21
     targetsdk_version = 31
     compilesdk_version = 31
@@ -20,9 +20,3 @@ static def gitVersionCode() {
 }
 
 
-println '------Fx---->'
-println("isDev-> $ext.isDev")
-println("isPublish-> $ext.isPublish")
-println("versionCode-> $ext.version_code")
-println("versionName-> $ext.version_name")
-println "------Fx-end----->"
