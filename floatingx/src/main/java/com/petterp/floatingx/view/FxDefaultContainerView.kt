@@ -22,7 +22,7 @@ class FxDefaultContainerView(helper: FxBasisHelper, context: Context, attrs: Att
 
     override fun initView() {
         super.initView()
-        isClickable = true
+        isClickable = false
         initLayoutParams()
         installChildView()
         setBackgroundColor(Color.TRANSPARENT)
